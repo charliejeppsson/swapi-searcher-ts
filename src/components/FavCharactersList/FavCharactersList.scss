@@ -1,0 +1,17 @@
+.FavCharactersList {
+  display: flex;
+  flex-direction: column;
+  width: 440px;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    max-height: 595px;
+    overflow: auto;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+}
