@@ -1,0 +1,24 @@
+@import '../../styleVariables.scss';
+
+.SearchForm {
+  display: flex;
+  padding: 20px;
+  background-color: $lightGrey;
+  border-radius: 5px;
+  box-shadow: $boxShadow;
+  margin: 0 5px 20px 5px;
+  position: relative;
+}
+
+.SearchInput {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-shadow: $boxShadow ;
+  font-size: 14px;
+  color: black;
+  padding: 10px;
+}

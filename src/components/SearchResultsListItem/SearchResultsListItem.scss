@@ -1,0 +1,27 @@
+@import '../../styleVariables.scss';
+
+.SearchResultsListItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  list-style: none;
+  background-color: $lightGrey;
+  border-radius: 5px;
+  box-shadow: $boxShadow;
+  padding: 10px;
+  margin: 0 5px 10px 5px;
+  overflow: visible;
+  text-align: left;
+
+  button {
+    background-color: $yellow;
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: $boxShadow;
+    font-weight: bold;
+    cursor: pointer;
+  }
+}

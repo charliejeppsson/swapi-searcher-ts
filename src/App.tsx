@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './App.scss';
+import SearchHome from './components/SearchHome/SearchHome';
 import {
   FavCharactersContext,
   FavCharactersContextType,
@@ -29,6 +30,7 @@ const App: React.FC = () => {
   return (
     <div className="App__container">
       <FavCharactersContext.Provider value={InitialFavCharactersContext}>
+        <SearchHome />
       </FavCharactersContext.Provider>
     </div>
   );
